@@ -1,0 +1,75 @@
+.card {
+  background: #fff; /* Color de fondo de la tarjeta */
+  transition: 0.5s; /* Transición suave al cambiar estilos */
+  border: 0; /* Sin borde */
+  margin-bottom: 30px; /* Margen inferior */
+  border-radius: 0.55rem; /* Radio de borde */
+  position: relative; /* Posicionamiento relativo */
+  width: 100%; /* Ancho completo */
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%); /* Sombra */
+}
+
+.bg-primary {
+  background-color: #008cff !important; /* Color de fondo primario */
+}
+
+.card {
+  position: relative;
+  display: flex; /* Disposición flex */
+  flex-direction: column; /* Dirección de columna */
+  min-width: 0; /* Ancho mínimo */
+  word-wrap: break-word; /* Wrap de texto */
+  background-color: #fff; /* Color de fondo */
+  background-clip: border-box; /* Recorte de fondo */
+  border: 0px solid rgba(0, 0, 0, 0); /* Sin borde */
+  border-radius: 0.25rem; /* Radio de borde */
+  margin-bottom: 1.5rem; /* Margen inferior */
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%); /* Sombra */
+}
+
+.main-body {
+  padding: 15px; /* Relleno interno */
+}
+
+.card {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); /* Sombra */
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125); /* Sin borde */
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  flex: 1 1 auto; /* Factor de crecimiento y encogimiento */
+  min-height: 1px; /* Altura mínima */
+  padding: 1rem; /* Relleno interno */
+}
+
+.gutters-sm {
+  margin-right: -8px; /* Margen derecho negativo */
+  margin-left: -8px; /* Margen izquierdo negativo */
+}
+
+.gutters-sm > .col,
+.gutters-sm > [class*="col-"] {
+  padding-right: 8px; /* Relleno derecho */
+  padding-left: 8px; /* Relleno izquierdo */
+}
+
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important; /* Margen inferior */
+}
+
+.h-100 {
+  height: 100% !important; /* Altura completa */
+}

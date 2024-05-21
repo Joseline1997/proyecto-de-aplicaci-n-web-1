@@ -1,0 +1,4 @@
+.display-inline-block {
+  display: inline-block !important; /* Mostrar elementos como bloques en línea */
+  width: auto; /* Ancho automático para ajustarse al contenido */
+}

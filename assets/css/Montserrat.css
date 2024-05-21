@@ -1,0 +1,16 @@
+@font-face {
+  /* Nombre de la familia de fuentes */
+  font-family: "Montserrat";
+  /* Ruta del archivo de fuente WOFF2 */
+  src: url(../../assets/fonts/Montserrat-99764e33f03a95926b938c6f56e08a4f.woff2)
+    format("woff2");
+  /* Peso de la fuente */
+  font-weight: 400;
+  /* Estilo de la fuente */
+  font-style: normal;
+  /* Modo de renderizado de la fuente */
+  font-display: swap;
+  /* Rango de caracteres Unicode soportados */
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}

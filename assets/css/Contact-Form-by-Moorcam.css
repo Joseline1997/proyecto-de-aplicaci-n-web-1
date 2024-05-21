@@ -1,0 +1,91 @@
+.contact-clean {
+  background: #f1f7fc; /* Fondo azul claro */
+  padding: 80px 0; /* Espaciado interno vertical de 80px */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width:767px) {
+  .contact-clean {
+    padding: 20px 0; /* Espaciado interno vertical de 20px en dispositivos móviles */
+  }
+}
+
+.contact-clean form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff; /* Fondo blanco para el formulario */
+  padding: 40px; /* Espaciado interno de 40px */
+  border-radius: 4px; /* Bordes redondeados */
+  color: #505e6c; /* Color de texto gris oscuro */
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width:767px) {
+  .contact-clean form {
+    padding: 30px; /* Espaciado interno de 30px en dispositivos móviles */
+  }
+}
+
+.contact-clean h2 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 36px;
+  color: inherit; /* Heredar el color del elemento padre */
+}
+
+.contact-clean .form-group:last-child {
+  margin-bottom: 5px; /* Margen inferior de 5px para el último grupo de campos */
+}
+
+.contact-clean form .form-control {
+  background: #fff; /* Fondo blanco para los campos de formulario */
+  border-radius: 2px; /* Bordes redondeados */
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05); /* Sombra suave */
+  outline: none; /* Eliminar el contorno al enfocar */
+  color: inherit; /* Heredar el color del elemento padre */
+  padding-left: 12px; /* Espaciado interno izquierdo de 12px */
+  height: 42px; /* Altura de 42px */
+}
+
+.contact-clean form .form-control:focus {
+  border: 1px solid #b2b2b2; /* Borde gris claro cuando se enfoca */
+}
+
+.contact-clean form textarea.form-control {
+  min-height: 100px; /* Altura mínima de 100px para áreas de texto */
+  max-height: 260px; /* Altura máxima de 260px para áreas de texto */
+  padding-top: 10px; /* Espaciado interno superior de 10px */
+  resize: vertical; /* Permitir el redimensionamiento vertical */
+}
+
+.contact-clean form .btn {
+  padding: 16px 32px; /* Espaciado interno de 16px horizontal y 32px vertical */
+  border: none; /* Sin bordes */
+  background: none; /* Sin fondo */
+  box-shadow: none; /* Sin sombras */
+  text-shadow: none; /* Sin sombras de texto */
+  opacity: 0.9; /* Opacidad de 0.9 */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 13px; /* Tamaño de fuente de 13px */
+  letter-spacing: 0.4px; /* Espaciado entre caracteres de 0.4px */
+  line-height: 1; /* Altura de línea de 1 */
+  outline: none !important; /* Eliminar el contorno al enfocar */
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1; /* Opacidad de 1 al pasar el cursor encima */
+}
+
+.contact-clean form .btn:active {
+  transform: translateY(1px); /* Desplazar el botón 1px hacia abajo cuando se presiona */
+}
+
+.contact-clean form .btn-primary {
+  background-color: #055ada !important; /* Fondo azul para el botón primario */
+  margin-top: 15px; /* Margen superior de 15px */
+  color: #fff; /* Texto blanco */
+}
